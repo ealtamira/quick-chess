@@ -1,0 +1,124 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\GithubProjects\\quick-chess\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{49ACB103-97A2-437A-AA64-38CD41A1DB51}|ClassLibrary\\ChessLibrary.csproj|c:\\githubprojects\\quick-chess\\classlibrary\\board.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49ACB103-97A2-437A-AA64-38CD41A1DB51}|ClassLibrary\\ChessLibrary.csproj|solutionrelative:classlibrary\\board.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4265F8F0-1709-4C20-ACD2-903D603FD67A}|Chess\\Chess.csproj|c:\\githubprojects\\quick-chess\\chess\\gameui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4265F8F0-1709-4C20-ACD2-903D603FD67A}|Chess\\Chess.csproj|solutionrelative:chess\\gameui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49ACB103-97A2-437A-AA64-38CD41A1DB51}|ClassLibrary\\ChessLibrary.csproj|c:\\githubprojects\\quick-chess\\classlibrary\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49ACB103-97A2-437A-AA64-38CD41A1DB51}|ClassLibrary\\ChessLibrary.csproj|solutionrelative:classlibrary\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{49ACB103-97A2-437A-AA64-38CD41A1DB51}|ClassLibrary\\ChessLibrary.csproj|c:\\githubprojects\\quick-chess\\classlibrary\\xmlhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{49ACB103-97A2-437A-AA64-38CD41A1DB51}|ClassLibrary\\ChessLibrary.csproj|solutionrelative:classlibrary\\xmlhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4265F8F0-1709-4C20-ACD2-903D603FD67A}|Chess\\Chess.csproj|c:\\githubprojects\\quick-chess\\chess\\newgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{4265F8F0-1709-4C20-ACD2-903D603FD67A}|Chess\\Chess.csproj|solutionrelative:chess\\newgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GameUI.cs",
+              "DocumentMoniker": "C:\\GithubProjects\\quick-chess\\Chess\\GameUI.cs",
+              "RelativeDocumentMoniker": "Chess\\GameUI.cs",
+              "ToolTip": "C:\\GithubProjects\\quick-chess\\Chess\\GameUI.cs",
+              "RelativeToolTip": "Chess\\GameUI.cs",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAMwBAAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T21:00:10.321Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Game.cs",
+              "DocumentMoniker": "C:\\GithubProjects\\quick-chess\\ClassLibrary\\Game.cs",
+              "RelativeDocumentMoniker": "ClassLibrary\\Game.cs",
+              "ToolTip": "C:\\GithubProjects\\quick-chess\\ClassLibrary\\Game.cs",
+              "RelativeToolTip": "ClassLibrary\\Game.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T19:32:17.614Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Board.cs",
+              "DocumentMoniker": "C:\\GithubProjects\\quick-chess\\ClassLibrary\\Board.cs",
+              "RelativeDocumentMoniker": "ClassLibrary\\Board.cs",
+              "ToolTip": "C:\\GithubProjects\\quick-chess\\ClassLibrary\\Board.cs",
+              "RelativeToolTip": "ClassLibrary\\Board.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAowE0AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T19:31:14.084Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "NewGame.cs [Design]",
+              "DocumentMoniker": "C:\\GithubProjects\\quick-chess\\Chess\\NewGame.cs",
+              "RelativeDocumentMoniker": "Chess\\NewGame.cs",
+              "ToolTip": "C:\\GithubProjects\\quick-chess\\Chess\\NewGame.cs [Design]",
+              "RelativeToolTip": "Chess\\NewGame.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T19:31:11.762Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "XmlHelper.cs",
+              "DocumentMoniker": "C:\\GithubProjects\\quick-chess\\ClassLibrary\\XmlHelper.cs",
+              "RelativeDocumentMoniker": "ClassLibrary\\XmlHelper.cs",
+              "ToolTip": "C:\\GithubProjects\\quick-chess\\ClassLibrary\\XmlHelper.cs",
+              "RelativeToolTip": "ClassLibrary\\XmlHelper.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-20T19:31:01.229Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -21,10 +21,9 @@ namespace ChessLibrary
 	public class Board
 	{
 		private Side m_WhiteSide, m_BlackSide;	// Chess board site object 
-		private Cells m_cells;  // collection of cells in the board
-        private GameMode GameMode960;
+		private Cells m_cells;	// collection of cells in the board
 
-        public Board()
+		public Board()
 		{
             m_WhiteSide = new Side(Side.SideType.White);	// Makde white side
             m_BlackSide = new Side(Side.SideType.Black);	// Makde white side
@@ -44,8 +43,6 @@ namespace ChessLibrary
 					m_cells.Add(new Cell(row,col));	// Initialize and add the new chess cell
 				}
 
-
-			
 			// Now setup the board for black side
 			m_cells["a1"].piece = new Piece(Piece.PieceType.Rook,m_BlackSide);
 			m_cells["h1"].piece = new Piece(Piece.PieceType.Rook,m_BlackSide);
@@ -71,19 +68,8 @@ namespace ChessLibrary
 				m_cells[7, col].piece = new Piece(Piece.PieceType.Pawn,m_WhiteSide);
 		}
 
-        public GameMode SelectedGameMode
-        {
-            get
-            {
-                if (GameMode960 == GameMode.Chess960)
-                    return GameMode.Chess960;
-                else
-                    return GameMode.Classic;
-            }
-        }
-
-        // get the new item by rew and column
-        public Cell this[int row, int col]
+		// get the new item by rew and column
+		public Cell this[int row, int col]
 		{
 			get
 			{

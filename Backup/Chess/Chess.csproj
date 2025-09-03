@@ -3,22 +3,21 @@
     <ProjectType>Local</ProjectType>
     <ProductVersion>9.0.21022</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{49ACB103-97A2-437A-AA64-38CD41A1DB51}</ProjectGuid>
+    <ProjectGuid>{4265F8F0-1709-4C20-ACD2-903D603FD67A}</ProjectGuid>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ApplicationIcon>
-    </ApplicationIcon>
+    <ApplicationIcon>App.ico</ApplicationIcon>
     <AssemblyKeyContainerName>
     </AssemblyKeyContainerName>
-    <AssemblyName>Chessbrary</AssemblyName>
+    <AssemblyName>Chess</AssemblyName>
     <AssemblyOriginatorKeyFile>
     </AssemblyOriginatorKeyFile>
     <DefaultClientScript>JScript</DefaultClientScript>
     <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
     <DefaultTargetSchema>IE50</DefaultTargetSchema>
     <DelaySign>false</DelaySign>
-    <OutputType>Library</OutputType>
-    <RootNamespace>ChessLibrary</RootNamespace>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Chess</RootNamespace>
     <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
     <StartupObject>
     </StartupObject>
@@ -27,6 +26,21 @@
     <OldToolsVersion>0.0</OldToolsVersion>
     <UpgradeBackupLocation>
     </UpgradeBackupLocation>
+    <PublishUrl>http://localhost/Chess/</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <OutputPath>bin\Debug\</OutputPath>
@@ -90,40 +104,93 @@
     <Reference Include="System.Xml">
       <Name>System.XML</Name>
     </Reference>
+    <ProjectReference Include="..\ClassLibrary\ChessLibrary.csproj">
+      <Name>ClassLibrary</Name>
+      <Project>{49ACB103-97A2-437A-AA64-38CD41A1DB51}</Project>
+      <Package>{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</Package>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App.ico" />
+    <Compile Include="AboutBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutBox.Designer.cs">
+      <DependentUpon>AboutBox.cs</DependentUpon>
+    </Compile>
     <Compile Include="AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Board.cs">
+    <Compile Include="CaptureBar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ChessMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GameUI.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Cell.cs">
+    <Compile Include="Images.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="ChessCells.cs">
+    <Compile Include="NewGame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SelectPiece.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sounds.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Game.cs">
-      <SubType>Code</SubType>
+    <Compile Include="Squar.cs">
+      <SubType>Component</SubType>
     </Compile>
-    <Compile Include="GameMode.cs" />
-    <Compile Include="Move.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Piece.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Player.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Rules.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Side.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="XmlHelper.cs" />
+    <EmbeddedResource Include="AboutBox.resx">
+      <DependentUpon>AboutBox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CaptureBar.resx">
+      <DependentUpon>CaptureBar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChessMain.resx">
+      <DependentUpon>ChessMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewGame.resx">
+      <DependentUpon>NewGame.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SelectPiece.resx">
+      <DependentUpon>SelectPiece.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Squar.resx">
+      <DependentUpon>Squar.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
